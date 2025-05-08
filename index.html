@@ -1,23 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Grant's Personal Website</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
-        nav { margin: 20px; }
-        nav a { margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 10px; }
-    </style>
+  <meta charset="UTF-8">
+  <title>High End Fruit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdf8f2;
+    }
+
+    header {
+      background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://hips.hearstapps.com/hmg-prod/images/sweet-orange-melon-grown-in-yuubari-city-japan-royalty-free-image-1679935588.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 30px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #5a3d36;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #3e2a26;
+    }
+
+    .section p {
+      font-size: 1.05em;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .cta {
+      margin-top: 30px;
+    }
+
+    .cta a {
+      background-color: #3e2a26;
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-size: 1.1em;
+    }
+
+    .cta a:hover {
+      background-color: #563630;
+    }
+
+    footer {
+      background-color: #3e2a26;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        <img src="IMG_2886.jpg" alt="Grant at a football game" width="300">
-        <p>Hi, I'm Grant! I'm currently a sophomore at Gonzaga University, exploring different career paths.</p>
-        <nav>
-            <a href="about_me.html">About Me</a>
-            <a href="interests.html">Interests</a>
-        </nav>
+
+  <header>
+    <h1>High End Fruit</h1>
+    <p>Luxury Fruit for the Discerning Palate</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Our Fruit</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="section">
+    <h2>Why High End Fruit?</h2>
+    <p>
+      From $10 strawberries to $15,000 pineapples — our fruits aren’t just food, they’re an experience.
+      Hand-selected, lovingly grown, and curated from the most exclusive farms in the world.
+    </p>
+
+    <div class="cta">
+      <a href="products.html">Browse Our Collection</a>
     </div>
+  </div>
+
+  <footer>
+    &copy; 2025 High End Fruit. Crafted with care for the tastefully bold.
+  </footer>
+
 </body>
 </html>
